@@ -1,5 +1,7 @@
 # PolyChord samples for the Hubble-tension review
 
+“Hubble tension: a short review of theoretical explanations” (arXiv:2607.21497)
+
 This repository contains the PolyChord sample products used for the numerical results in the associated Hubble-tension review. It is a data release, not a complete executable analysis environment: external Boltzmann solvers, likelihood packages, and likelihood data are not included.
 
 ## Directory layout
