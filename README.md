@@ -1,7 +1,5 @@
 # PolyChord samples for the Hubble-tension review
 
-“Hubble tension: a short review of theoretical explanations” (arXiv:2607.21497)
-
 This repository contains the PolyChord sample products used for the numerical results in the associated Hubble-tension review. It is a data release, not a complete executable analysis environment: external Boltzmann solvers, likelihood packages, and likelihood data are not included.
 
 ## Directory layout
@@ -32,6 +30,10 @@ Machine-specific absolute paths have been removed from the public YAML files by 
 The YAML files document the model parameters, priors, likelihood combinations, and PolyChord settings used for each chain. The `.1.txt` files are posterior products and are suitable for analysis with [GetDist](https://github.com/cmbant/getdist). They do not contain the complete PolyChord dead-point and live-point history required to reconstruct a nested-sampling run from scratch.
 
 The reported Bayesian evidences should only be compared between runs with compatible model definitions, likelihoods, and prior choices.
+
+## Citation
+
+If you use these data, please cite *Hubble tension: a short review of theoretical explanations*, [arXiv:2607.21497](https://arxiv.org/abs/2607.21497).
 
 ## GitHub upload note
 
